@@ -15,8 +15,22 @@ A minimal, terminal-based breathing and meditation guide with ASCII progress bar
 
 ## Installation
 
+### First time setup (if you don't have pipx)
+
 ```bash
-pipx install git+https://github.com/bobtianqiwei/terminal-zen.git
+# Install pipx
+pip install pipx
+
+# Add pipx to your PATH
+pipx ensurepath
+
+# Restart your terminal or run: source ~/.bashrc (or ~/.zshrc)
+```
+
+### Install Terminal Zen
+
+```bash
+pipx install git+https://github.com/bobtianqiwei/terminal_zen.git
 ```
 
 ## Usage

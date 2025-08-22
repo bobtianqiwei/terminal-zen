@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "terminal-zen"
+name = "terminal_zen"
 version = "1.0.0"
 description = "A terminal-based breathing and meditation guide with progress bars"
 readme = "README.md"
@@ -31,9 +31,9 @@ dependencies = []
 zen = "terminal_zen.__main__:main"
 
 [project.urls]
-Homepage = "https://github.com/bobtianqiwei/terminal-zen"
-Repository = "https://github.com/bobtianqiwei/terminal-zen"
-Issues = "https://github.com/bobtianqiwei/terminal-zen/issues"
+Homepage = "https://github.com/bobtianqiwei/terminal_zen"
+Repository = "https://github.com/bobtianqiwei/terminal_zen"
+Issues = "https://github.com/bobtianqiwei/terminal_zen/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
