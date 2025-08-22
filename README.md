@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="Terminal Zen.png" alt="Terminal Zen" width="600">
+</div>
+
 # Terminal Zen 🧘
 
 A minimal, terminal-based breathing and meditation guide with ASCII progress bars. Perfect for quick mindfulness sessions during your coding breaks.
