@@ -15,24 +15,8 @@ A minimal, terminal-based breathing and meditation guide with ASCII progress bar
 
 ## Installation
 
-### Via pipx (Recommended)
-
 ```bash
 pipx install git+https://github.com/bobtianqiwei/terminal-zen.git
-```
-
-### Via pip
-
-```bash
-pip install git+https://github.com/bobtianqiwei/terminal-zen.git
-```
-
-### From Source
-
-```bash
-git clone https://github.com/bobtianqiwei/terminal-zen.git
-cd terminal-zen
-pip install -e .
 ```
 
 ## Usage
@@ -40,7 +24,6 @@ pip install -e .
 ### Interactive Mode (Recommended)
 
 ```bash
-# Start interactive mode - choose from guided sessions
 zen
 ```
 
@@ -58,31 +41,11 @@ zen --duration 60s
 # 2-minute session
 zen --duration 2m
 
-# 30-second session
-zen --duration 30s
-```
+# Custom breathing pattern
+zen --inhale 5 --hold1 3 --exhale 5 --hold2 3
 
-### Custom Breathing Patterns
-
-```bash
-# Box breathing (4-4-4-4)
-zen --inhale 4 --hold1 4 --exhale 4 --hold2 4
-
-# Extended exhale for relaxation
-zen --inhale 4 --hold1 2 --exhale 6 --hold2 2
-
-# Quick session with custom timing
-zen --duration 1m --inhale 3 --hold1 1 --exhale 5 --hold2 1
-```
-
-### Advanced Options
-
-```bash
-# Higher refresh rate for smoother progress bars
-zen --fps 20
-
-# Very short session for testing
-zen --duration 10s --inhale 2 --hold1 1 --exhale 2 --hold2 1
+# View help
+zen --help
 ```
 
 ## Demo
@@ -143,32 +106,6 @@ GitHub: https://github.com/bobtianqiwei
 | `--hold2` | `-H2` | `3` | Hold duration after exhale in seconds |
 | `--fps` | `-f` | `10` | Progress bar refresh rate (1-60) |
 
-## Breathing Techniques
-
-### Default Pattern (7-3-7-3)
-```bash
-zen
-```
-The default pattern provides a balanced, relaxing breathing rhythm.
-
-### Box Breathing (4-4-4-4)
-```bash
-zen --inhale 4 --hold1 4 --exhale 4 --hold2 4
-```
-Great for stress relief and focus.
-
-### 4-7-8 Breathing
-```bash
-zen --inhale 4 --hold1 7 --exhale 8 --hold2 0
-```
-Promotes relaxation and better sleep.
-
-### Extended Exhale
-```bash
-zen --inhale 4 --hold1 2 --exhale 6 --hold2 2
-```
-Activates the parasympathetic nervous system.
-
 ## Features in Detail
 
 ### Progress Bar Direction
@@ -193,28 +130,6 @@ Upon completing a session, you'll receive a random philosophical quote from vari
 
 - Python 3.9 or higher
 - No external dependencies (uses only standard library)
-
-## Development
-
-```bash
-# Clone the repository
-git clone https://github.com/bobtianqiwei/terminal-zen.git
-cd terminal-zen
-
-# Install in development mode
-pip install -e .
-
-# Run the tool
-python -m terminal_zen
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
 
 ## License
 
