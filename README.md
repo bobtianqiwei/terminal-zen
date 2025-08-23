@@ -108,7 +108,7 @@ Press 'q', 'Esc', or Ctrl+C to exit
 Session duration: 1m 0s
 Cycle: Inhale 7s, Hold 3s, Exhale 7s, Hold 3s
 --------------------------------------------------------
-Starting in 0s: ████████████████████████████████████████
+Starting in 0s: ████████████████████████████████████████    
 Begin!
 
 Cycle 1
