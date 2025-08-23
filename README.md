@@ -37,12 +37,24 @@ pipx ensurepath
 pipx install git+https://github.com/bobtianqiwei/terminal_zen.git
 ```
 
+### Nix with flakes
+
+```bash
+nix shell github:bobtianqiwei/terminal_zen
+```
+
 ## Usage
 
 ### Interactive Mode (Recommended)
 
 ```bash
 zen
+```
+
+Or with nix run with arguments
+
+```bash
+nix run github:bobtianqiwei/terminal_zen -- --duration 60s
 ```
 
 This will present you with three options:
@@ -96,7 +108,7 @@ Press 'q', 'Esc', or Ctrl+C to exit
 Session duration: 1m 0s
 Cycle: Inhale 7s, Hold 3s, Exhale 7s, Hold 3s
 --------------------------------------------------------
-Starting in 0s: ████████████████████████████████████████    
+Starting in 0s: ████████████████████████████████████████
 Begin!
 
 Cycle 1
