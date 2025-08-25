@@ -2,6 +2,10 @@
   <img src="Terminal Zen.png" alt="Terminal Zen" width="600">
 </div>
 
+> In July 2025, I began a new career as a software engineer. I stare at the terminal for hours, producing output like a machine but slowly losing focus inside. What I truly needed was not another productivity tool, but a small moment of pause ---- a gentle reminder that I am human before I am a worker.
+>
+> Terminal Zen grew out of that realization. It disguises rest as code: a simple progress bar that guides your breath while looking like just another script running. There is no flashy UI, only a minimal intervention that fits quietly into the environment where exhaustion often happens.
+
 # Terminal Zen 🧘
 
 A minimal, terminal-based breathing and meditation guide with ASCII progress bars. Perfect for quick mindfulness sessions during your coding breaks.
