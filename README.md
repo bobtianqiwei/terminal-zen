@@ -59,12 +59,24 @@ pipx ensurepath
 pipx install git+https://github.com/bobtianqiwei/terminal-zen.git
 ```
 
+### Nix with flakes
+
+```bash
+nix shell github:bobtianqiwei/terminal_zen
+```
+
 ## Usage
 
 ### Interactive Mode (Recommended)
 
 ```bash
 zen
+```
+
+Or with nix run with arguments
+
+```bash
+nix run github:bobtianqiwei/terminal_zen -- --duration 60s
 ```
 
 This will present you with three options:
