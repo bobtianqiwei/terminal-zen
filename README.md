@@ -34,7 +34,7 @@ pipx ensurepath
 ### Install Terminal Zen
 
 ```bash
-pipx install git+https://github.com/bobtianqiwei/terminal_zen.git
+pipx install git+https://github.com/bobtianqiwei/terminal-zen.git
 ```
 
 ## Usage
