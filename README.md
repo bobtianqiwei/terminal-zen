@@ -19,7 +19,24 @@ A minimal, terminal-based breathing and meditation guide with ASCII progress bar
 
 ## Installation
 
-### First time setup (if you don't have pipx)
+### Option 1: Homebrew (Recommended for macOS)
+
+```bash
+# Add the tap (only needed once)
+brew tap bobtianqiwei/tap
+
+# Install terminal-zen
+brew install terminal-zen
+```
+
+> **Note**: If you haven't set up the Homebrew tap yet, you can also install directly from the repository:
+> ```bash
+> brew install bobtianqiwei/terminal-zen/terminal-zen
+> ```
+
+### Option 2: pipx (Cross-platform)
+
+#### First time setup (if you don't have pipx)
 
 ```bash
 # Install pipx
@@ -31,7 +48,7 @@ pipx ensurepath
 # Restart your terminal or run: source ~/.bashrc (or ~/.zshrc)
 ```
 
-### Install Terminal Zen
+#### Install Terminal Zen
 
 ```bash
 pipx install git+https://github.com/bobtianqiwei/terminal-zen.git
@@ -156,6 +173,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 **Bob Tianqi Wei** - [GitHub](https://github.com/bobtianqiwei)
+
+## Development
+
+For information about setting up Homebrew installation, see [HOMEBREW_SETUP.md](HOMEBREW_SETUP.md).
 
 ---
 
