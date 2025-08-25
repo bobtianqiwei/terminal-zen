@@ -4,7 +4,7 @@
 
 
 <div align="center">
-  <img src="Terminal Zen.png" alt="Terminal Zen" width="600">
+  <img src="Terminal Zen.png" alt="Terminal Zen" width="100%">
 </div>
 
 # Terminal Zen 🧘
