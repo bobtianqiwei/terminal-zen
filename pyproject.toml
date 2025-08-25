@@ -28,7 +28,7 @@ keywords = ["terminal", "breathing", "meditation", "cli", "wellness"]
 dependencies = []
 
 [project.scripts]
-zen = "terminal_zen.__main__:main"
+zen = "terminal-zen.__main__:main"
 
 [project.urls]
 Homepage = "https://github.com/bobtianqiwei/terminal-zen"
@@ -37,4 +37,4 @@ Issues = "https://github.com/bobtianqiwei/terminal-zen/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["terminal_zen*"]
+include = ["terminal-zen*"]
